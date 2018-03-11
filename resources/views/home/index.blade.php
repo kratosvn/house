@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'P')
+@section('title', 'Thuê nhà trọ')
 
 @section('content')
     <p>This is my body content.</p>
