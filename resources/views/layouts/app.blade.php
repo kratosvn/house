@@ -2,14 +2,14 @@
 <head>
     <title>@yield('title')</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/app.css">
     @section('css')
     @endsection
 </head>
 <body>
-@include('layouts.header')
-@include('layouts.search')
 <div class="container">
+    @include('layouts.header')
+    @include('layouts.search')
     <div>
         @include('layouts.sidebar')
         @include('layouts.body')
